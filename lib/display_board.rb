@@ -7,7 +7,7 @@ display_board(board)
   puts "   |   |   "
 end
 
-board = ["X", "X", " ", " ", "X", " ", " ", " ", " "]
+board = ["X", "X", "0", " ", "X", " ", " ", " ", " "]
 
 display_board(board)
 
