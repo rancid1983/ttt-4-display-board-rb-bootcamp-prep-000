@@ -8,6 +8,6 @@ display_board(board)
 end
 
 
-display_board
+display_board(board)
 
-#board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
+board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
