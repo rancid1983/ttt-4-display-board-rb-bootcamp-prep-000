@@ -1,16 +1,10 @@
-board = ["X", "X", "0", " ", "X", " ", " ", " ", " "]
+def display_board(board)
+separator = "|"
+lines = "-----------"
 
-def
-display_board(board)
-  puts "   |   |   "
-  puts "-----------"
-  puts "   |   |   "
-  puts "-----------"
-  puts "   |   |   "
-  
+puts " #{board[0]} #{separator} #{board[1]} #{separator} #{board[2]} "
+puts "#{lines}"
+puts " #{board[3]} #{separator} #{board[4]} #{separator} #{board[5]} "
+puts "#{lines}"
+puts " #{board[6]} #{separator} #{board[7]} #{separator} #{board[8]} "
 end
-
-
-
-display_board(board)
-
