@@ -8,6 +8,6 @@ display_board(board)
 end
 
 
-#puts display_board
+display_board
 
 #board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
